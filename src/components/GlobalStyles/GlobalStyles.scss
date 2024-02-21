@@ -4,7 +4,7 @@
     --primary: #fe2c55;
     --black: #000;
     --white: #fff;
-    --text-color: #333;
+    --text-color: #161823;
 
     // Default layout
     --default-layout-header-height: 60px;
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed;
@@ -42,32 +42,32 @@ a[href] {
     text-decoration: none;
 }
 
-// Fonts embeded
+// Fonts emmbeded
 @font-face {
-    font-family: 'Roboto';
-    src: url('/assets/fonts/TikTokFont-Regular.woff2');
+    font-family: ProximaNova;
+    src: url('/assets/fonts/Proxima-Nova-Regular.woff2');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'TikTokFont';
-    src: url('/assets/fonts/TikTokFont-Semibold.woff2');
+    font-family: ProximaNova;
+    src: url('/assets/fonts/ProximaNova-Semibold.woff2');
     font-weight: 600;
 }
 
 @font-face {
-    font-family: 'TikTokFont';
-    src: url('/assets/fonts/TikTokDisplayFont-Bold.woff2');
+    font-family: ProximaNova;
+    src: url('/assets/fonts/Proxima-Nova-Bold.woff');
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'TikTokFont';
-    src: url('/assets/fonts/TikTokDisplayFont-Semibold.woff2');
+    font-family: SofiaPro;
+    src: url('/assets/fonts/sofiapro-bold.woff');
     font-weight: 700;
 }
 
-// custom tippy tooltip
+// Custom tippy tooltip
 body {
     .tippy-box {
         border-radius: 8px;
@@ -85,7 +85,7 @@ body {
         padding: 8px 9px;
     }
 
-    .tippy-box[data-placement^='bottom'] > .tippy-arrow::before {
+    .tippy-box[data-placement^='bottom'] > .tippy-arrow:before {
         top: -8px;
     }
 }
