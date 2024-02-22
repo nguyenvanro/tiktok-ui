@@ -21,6 +21,7 @@ function Menu({ children, items = [], hideOnClick = false, onChange = defaultFn 
 
             return (
                 <MenuItem
+
                     key={index}
                     data={item}
                     onClick={() => {
@@ -53,7 +54,9 @@ function Menu({ children, items = [], hideOnClick = false, onChange = defaultFn 
                                 }}
                             />
                         )}
-                        {renderItems()}
+                        <div className={cx('menu-body')}>
+                            {renderItems()}
+                        </div>
                     </PopperWrapper>
                 </div>
             )}
