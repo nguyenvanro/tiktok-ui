@@ -24,4 +24,8 @@ function AccountItem({ data }) {
     );
 }
 
+AccountItem.prototype = {
+    data: Proptype.object
+}
+
 export default AccountItem;
